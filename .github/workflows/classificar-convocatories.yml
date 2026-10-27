@@ -1,0 +1,21 @@
+name: Classificar convocatòries per revisar
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  classificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Identificar possibles llocs i tipus de documents
+        run: python classificar_convocatories.py
+      - name: Desar document de revisió
+        uses: actions/upload-artifact@v4
+        with:
+          name: convocatories-per-revisar
+          path: convocatories_per_revisar.json
+          retention-days: 7
