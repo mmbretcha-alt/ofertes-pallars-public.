@@ -1,0 +1,1 @@
+# ofertes-pallars-public.
