@@ -9,6 +9,7 @@ permissions:
 jobs:
   provar:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - name: Descarregar repositori
         uses: actions/checkout@v4
@@ -16,5 +17,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Comprovar la connexió a Sobirà Dinàmic
-        run: python actualitzar.py
+      - name: Instal·lar navegador de prova
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Provar lectura de Sobirà Dinàmic
+        run: python prova_airtable_navegador.py
