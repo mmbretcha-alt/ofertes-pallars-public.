@@ -1,0 +1,22 @@
+name: Provar SOC i consells comarcals
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  provar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descarregar repositori
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instal·lar navegador
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Examinar SOC i consells comarcals
+        run: python prova_altres_fonts.py
