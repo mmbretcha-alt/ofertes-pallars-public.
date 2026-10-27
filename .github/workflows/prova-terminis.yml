@@ -1,0 +1,24 @@
+name: Provar lectura de terminis
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  provar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instal·lar lector de PDF
+        run: python -m pip install requests pymupdf
+      - name: Examinar referències als terminis
+        run: python prova_terminis.py
+      - name: Desar fragments per verificar
+        uses: actions/upload-artifact@v4
+        with:
+          name: terminis-per-verificar
+          path: terminis_per_verificar.json
+          retention-days: 7
