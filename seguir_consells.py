@@ -23,7 +23,7 @@ async def main():
             if resp is None or resp.status != 200:
                 raise RuntimeError(f"Error HTTP a {source['nom']}: {resp.status if resp else 'cap resposta'}")
             await page.wait_for_timeout(4000)
-            raw = await page.locator("a[href]").evaluate_all("""links => links.map(a => ({
+            raw = await page.locator("a[href]").evaluate_all(r"""links => links.map(a => ({
                 title: (a.innerText || '').replace(/\\s+/g,' ').trim(),
                 url: a.href.split('#')[0].split('?')[0]
             })).filter(x => x.title && (/\\.pdf$/i.test(x.url) || /\/documents\//i.test(x.url)))""")
