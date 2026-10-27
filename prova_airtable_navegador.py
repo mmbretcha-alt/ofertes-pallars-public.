@@ -45,7 +45,7 @@ async def main():
         print(item["id"], "-", item["titol"])
     web = Path("index.html").read_text(encoding="utf-8")
     section = web.split("</section>", 1)[0]
-    previous_ids = set(re.findall(r"/(rec[A-Za-z0-9]{14})(?:[\\"/?])", section))
+    previous_ids = set(re.findall(r"/(rec[A-Za-z0-9]{14})", section))
     current_ids = set(records)
     new_ids = sorted(current_ids - previous_ids)
     missing_ids = sorted(previous_ids - current_ids)
