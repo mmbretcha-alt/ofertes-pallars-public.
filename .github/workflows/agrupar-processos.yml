@@ -1,0 +1,21 @@
+name: Agrupar processos per revisar
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  agrupar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Agrupar documents per perfil
+        run: python agrupar_processos.py
+      - name: Desar resultat per revisió
+        uses: actions/upload-artifact@v4
+        with:
+          name: processos-per-revisar
+          path: processos_per_revisar.json
+          retention-days: 7
