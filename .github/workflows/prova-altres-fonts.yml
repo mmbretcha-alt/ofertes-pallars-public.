@@ -19,4 +19,4 @@ jobs:
           python -m pip install playwright
           python -m playwright install --with-deps chromium
       - name: Examinar SOC i consells comarcals
-        run: python prova_altres_fonts.py
+        run: python prova_convocatories.py
