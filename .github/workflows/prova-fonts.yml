@@ -23,3 +23,11 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Provar lectura de Sobirà Dinàmic
         run: python prova_airtable_navegador.py
+
+      - name: Desar JSON de prova
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ofertes-sobira-prova
+          path: ofertes_sobira_prova.json
+          retention-days: 7
