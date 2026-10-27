@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlparse
 import requests
-import fitz
+import pymupdf
 
 src=json.loads(Path("estat_consells.json").read_text(encoding="utf-8"))["fonts"]
 patterns=[re.compile(p,re.I) for p in [
@@ -30,7 +30,7 @@ for source, documents in src.items():
                 raw.extend(chunk)
                 if len(raw)>12_000_000:
                     raise ValueError("Document massa gran")
-            pdf=fitz.open(stream=bytes(raw),filetype="pdf")
+            pdf=pymupdf.open(stream=bytes(raw),filetype="pdf")
             if len(pdf)>120:
                 raise ValueError("PDF amb massa pàgines")
             text=" ".join(page.get_text() for page in pdf)
