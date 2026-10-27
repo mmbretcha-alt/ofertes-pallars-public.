@@ -1,0 +1,26 @@
+
+{
+  "nom": "Ofertes de feina als Pallars - Reintegra",
+  "fonts": [
+    {
+      "nom": "Sobirà Dinàmic",
+      "tipus": "airtable",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8"
+    },
+    {
+      "nom": "SOC - Feina Activa",
+      "tipus": "web",
+      "url": "https://feinaactiva.gencat.cat"
+    },
+    {
+      "nom": "Consell Comarcal del Pallars Jussà",
+      "tipus": "web",
+      "url": "https://www.pallarsjussa.cat/tramits-i-gestions/convocatories-de-personal"
+    },
+    {
+      "nom": "Consell Comarcal del Pallars Sobirà",
+      "tipus": "web",
+      "url": "https://seu-e.cat/ca/web/ccpallarssobira/govern-obert-i-transparencia/informacio-institucional-i-organitzativa/empleats-publics/convocatories-de-personal"
+    }
+  ]
+}
