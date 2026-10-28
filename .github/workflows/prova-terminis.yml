@@ -30,12 +30,16 @@ jobs:
       - name: Classificar possibles convocatories
         run: python filtrar_terminis.py
 
+      - name: Agrupar convocatories per expedient
+        run: python agrupar_processos.py
+
       - name: Desar fragments per verificar
         uses: actions/upload-artifact@v4
         with:
           name: terminis-per-verificar
           path: terminis_per_verificar.json
           retention-days: 7
+          if-no-files-found: error
 
       - name: Desar resultat del filtre
         uses: actions/upload-artifact@v4
@@ -43,3 +47,12 @@ jobs:
           name: resultat-filtre-terminis
           path: resultat_filtre_terminis.json
           retention-days: 7
+          if-no-files-found: error
+
+      - name: Desar processos agrupats
+        uses: actions/upload-artifact@v4
+        with:
+          name: processos-per-revisar
+          path: processos_per_revisar.json
+          retention-days: 7
+          if-no-files-found: error
