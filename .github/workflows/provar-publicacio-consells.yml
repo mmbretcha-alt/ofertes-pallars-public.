@@ -1,0 +1,39 @@
+
+name: Provar publicacio dels consells
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  provar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Descarregar repositori
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generar previsualitzacio
+        run: python publicar_consells.py
+
+      - name: Comprovar resultat
+        run: |
+          test -s previsualitzacio_consells.html
+          grep -q "Consell Comarcal del Pallars Jussa" previsualitzacio_consells.html || grep -q "Consell Comarcal del Pallars Jussà" previsualitzacio_consells.html
+          grep -q "Consell Comarcal del Pallars Sobirà" previsualitzacio_consells.html
+          echo "Previsualitzacio generada correctament"
+
+      - name: Guardar previsualitzacio
+        uses: actions/upload-artifact@v4
+        with:
+          name: previsualitzacio-consells
+          path: previsualitzacio_consells.html
+          retention-days: 7
