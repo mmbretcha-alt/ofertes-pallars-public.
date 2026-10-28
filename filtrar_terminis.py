@@ -58,9 +58,30 @@ def classificar(document):
         resultat["motiu"] = "Lectura no completada"
         return resultat
 
+  
+    titol = normalitzar(document.get("document", ""))
+    url = normalitzar(document.get("url", ""))
+
+    indicadors_fase_posterior = (
+        "admesos", "exclosos", "baremacio",
+        "resultat", "nomenament tribunal",
+        "fase oposicio", "entrevista",
+        "llista provisional", "llista definitiva",
+        "aprovacio provisional", "aprovacio definitiva",
+    )
+
+    if any(
+        indicador in titol or indicador in url
+        for indicador in indicadors_fase_posterior
+    ):
+        resultat["motiu"] = (
+            "Document d'una fase posterior del procés; "
+            "no és una nova convocatòria"
+        )
+        return resultat
+
     for fragment in fragments:
         text = normalitzar(fragment)
-
         if any(terme in text for terme in INSCRIPCIO):
             resultat["fragments_rellevants"].append(fragment)
 
@@ -80,6 +101,7 @@ def classificar(document):
         resultat["motiu"] = "Sense indicis suficients d'inscripció"
 
     return resultat
+
 
 def main():
     if not SOURCE.exists():
