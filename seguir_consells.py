@@ -24,6 +24,10 @@ async def main():
                 raise RuntimeError(f"Error HTTP a {source['nom']}: {resp.status if resp else 'cap resposta'}")
             await page.wait_for_timeout(4000)
             raw = await page.locator("a[href]").evaluate_all(r"""links => links.map(a => ({
+            print("URL final:", page.url)
+            print("Títol pàgina:", await page.title())
+            print("Total enllaços:", await page.locator("a[href]").count())
+            print("Enllaços PDF:", await page.locator("a[href*='.pdf']").count())
                 title: (a.innerText || '').replace(/\\s+/g,' ').trim(),
                 url: a.href.split('#')[0].split('?')[0]
             })).filter(x => x.title && (x.url.toLowerCase().endsWith('.pdf') || x.url.toLowerCase().includes('/documents/')))""")
