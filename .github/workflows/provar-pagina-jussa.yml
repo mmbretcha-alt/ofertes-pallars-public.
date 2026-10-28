@@ -1,0 +1,27 @@
+
+name: Provar acces pagina Jussa
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  provar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descarregar repositori
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installar requests
+        run: python -m pip install requests
+
+      - name: Comprovar acces al Consell del Jussa
+        run: python provar_pagina_jussa.py
