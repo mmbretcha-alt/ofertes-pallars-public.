@@ -1,52 +1,170 @@
-"""Agrupa documents amb un rol identificat en candidats de procés.
-Agrupació orientativa: no valida terminis ni afirma convocatòries obertes."""
+
+"""Agrupacio prudent de convocatories dels consells.
+
+No confirma terminis oberts ni modifica la web publica.
+"""
+
 import json
 import re
 import unicodedata
-from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from zoneinfo import ZoneInfo
 
-SOURCE = Path("estat_consells.json")
+SOURCE = Path("resultat_filtre_terminis.json")
 DEST = Path("processos_per_revisar.json")
 
-RULES = [
- ("peo_conductor", r"peo[-_ ]conductor|peo-conductor", "Peó/ona conductor/a"),
- ("educacio_social", r"educador[-_ ]social|educacio[-_ ]social", "Educació social"),
- ("terapia_ocupacional", r"terapeuta[-_ ]ocupacional", "Terapeuta ocupacional"),
- ("dinamitzacio_civica", r"dinamitzador[-_ ]civic", "Dinamització cívica"),
- ("treball_social", r"treballador[a]?[-_ ]social", "Treball social"),
- ("joventut", r"joventut", "Joventut"),
- ("arxiu", r"tecnic[-_ ]arxiu", "Tècnic/a d'arxiu"),
- ("proteccio_civil", r"proteccio[-_ ]civil", "Protecció civil"),
- ("administracio", r"administratiu", "Administració"),
+PERFILS = [
+    (r"peo.{0,15}conductor", "Peó/ona conductor/a"),
+    (r"educador.{0,12}social", "Educació social"),
+    (r"terapeuta.{0,12}ocupacional", "Teràpia ocupacional"),
+    (r"dinamitzador.{0,12}civic", "Dinamització cívica"),
+    (r"treballador.{0,12}social", "Treball social"),
+    (r"tecnic.{0,12}sisi", "Tècnic/a SISI"),
+    (r"tecnic.{0,12}arxiu", "Tècnic/a d'arxiu"),
+    (r"proteccio.{0,12}civil", "Protecció civil"),
+    (r"coordinador.{0,30}juridic", "Coordinació jurídica"),
+    (r"administratiu", "Administració"),
+    (r"joventut", "Joventut"),
 ]
-def norm(s):
-    s=unicodedata.normalize("NFKD",s).encode("ascii","ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]+","-",s)
+
+EXPEDIENT = re.compile(
+    r"\b(?:expedient|exp)\.?\s*(?:num\.?|numero|n)?\s*"
+    r"[:\-]?\s*(\d{1,6}\s*/\s*20\d{2})\b",
+    re.IGNORECASE,
+)
+
+
+def normalitzar(text):
+    text = unicodedata.normalize("NFKD", str(text))
+    text = "".join(
+        c for c in text if not unicodedata.combining(c)
+    )
+    return text.lower()
+
+
+def detectar_perfil(doc):
+    text = " ".join([
+        doc.get("document", ""),
+        doc.get("url", ""),
+        *doc.get("fragments_rellevants", []),
+    ])
+    text = normalitzar(text)
+
+    for patro, perfil in PERFILS:
+        if re.search(patro, text):
+            return perfil
+
+    return None
+
+
+def detectar_expedient(doc):
+    textos = [
+        doc.get("document", ""),
+        *doc.get("fragments_rellevants", []),
+    ]
+
+    trobats = set()
+    for text in textos:
+        for valor in EXPEDIENT.findall(normalitzar(text)):
+            trobats.add(re.sub(r"\s+", "", valor))
+
+    if len(trobats) == 1:
+        return next(iter(trobats))
+
+    return None
+
 
 def main():
-    data=json.loads(SOURCE.read_text(encoding="utf-8"))
-    grouped=defaultdict(list)
-    unclassified=0
-    for source, docs in data["fonts"].items():
-        for doc in docs:
-            slug=norm(unquote(urlparse(doc["url"]).path))
-            role=next(((key,title) for key,pat,title in RULES if re.search(pat,slug)),None)
-            if role is None:
-                unclassified+=1
-                continue
-            (key,title)=role
-            grouped[(source,key,title)].append(doc)
-    groups=[]
-    for (source,key,title),docs in sorted(grouped.items()):
-        groups.append({"font":source,"possible_lloc":title,
-                       "clau_provisional":key,"nombre_documents":len(docs),
-                       "documents":docs,"termini":None,
-                       "estat_inscripcio":"No verificat",
-                       "nota":"Documents agrupats pel text de l'URL; pot haver-hi més d'un procés del mateix perfil."})
-    DEST.write_text(json.dumps({"advertiment":"Agrupació orientativa; no són ofertes noves verificades.","grups":groups},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print("Grups orientatius:",len(groups),"Documents sense perfil classificat:",unclassified)
-    for group in groups: print(group["font"],"|",group["possible_lloc"],"| documents:",group["nombre_documents"])
-    print("NO s'ha canviat la web ni s'ha confirmat cap convocatòria oberta.")
-if __name__=="__main__": main()
+    if not SOURCE.exists():
+        raise FileNotFoundError(
+            "Falta resultat_filtre_terminis.json. "
+            "Cal executar primer la lectura i el filtre."
+        )
+
+    dades = json.loads(SOURCE.read_text(encoding="utf-8"))
+
+    candidats = [
+        d for d in dades.get("documents", [])
+        if d.get("categoria") == "possible_convocatoria"
+    ]
+
+    grups = {}
+    sense_expedient = []
+
+    for doc in candidats:
+        font = doc.get("font", "")
+        perfil = detectar_perfil(doc)
+        expedient = detectar_expedient(doc)
+
+        document = {
+            "titol": doc.get("document", ""),
+            "url": doc.get("url", ""),
+            "perfil_detectat": perfil,
+            "expedient_detectat": expedient,
+        }
+
+        if expedient:
+            clau = (font, expedient)
+            if clau not in grups:
+                grups[clau] = {
+                    "font": font,
+                    "expedient": expedient,
+                    "perfils_detectats": [],
+                    "documents": [],
+                    "estat_inscripcio": "no_verificat",
+                    "requereix_revisio": True,
+                }
+
+            grup = grups[clau]
+            if perfil and perfil not in grup["perfils_detectats"]:
+                grup["perfils_detectats"].append(perfil)
+
+            if not any(
+                d["url"] == document["url"]
+                for d in grup["documents"]
+            ):
+                grup["documents"].append(document)
+
+        else:
+            sense_expedient.append({
+                "font": font,
+                "perfil_possible": perfil,
+                "document": document,
+                "motiu": (
+                    "Sense expedient identificat amb prou "
+                    "certesa. No s'agrupa automaticament."
+                ),
+                "estat_inscripcio": "no_verificat",
+            })
+
+    sortida = {
+        "data_analisi": datetime.now(
+            ZoneInfo("Europe/Madrid")
+        ).isoformat(),
+        "avis": (
+            "Agrupacio provisional per expedient explicit. "
+            "No confirma ofertes obertes ni terminis vigents."
+        ),
+        "documents_candidats": len(candidats),
+        "grups_amb_expedient": len(grups),
+        "documents_sense_expedient": len(sense_expedient),
+        "grups": list(grups.values()),
+        "pendents_identificacio": sense_expedient,
+    }
+
+    DEST.write_text(
+        json.dumps(sortida, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    print("Documents candidats:", len(candidats))
+    print("Grups amb expedient:", len(grups))
+    print("Documents sense expedient:", len(sense_expedient))
+    print("Resultat:", DEST)
+    print("Cap oferta oberta confirmada.")
+    print("La web publica no s'ha modificat.")
+
+
+if __name__ == "__main__":
+    main()
