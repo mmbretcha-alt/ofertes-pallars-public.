@@ -22,3 +22,15 @@ jobs:
           name: terminis-per-verificar
           path: terminis_per_verificar.json
           retention-days: 7
+      - name: Examinar referències als terminis
+        run: python provar_terminis.py
+      - name: Classificar possibles convocatories
+        run: python filtrar_terminis.py
+          retention-days: 7    
+      - name: Desar resultat del filtre
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultat-filtre-terminis
+          path: resultat_filtre_terminis.json
+          retention-days: 7
+  
