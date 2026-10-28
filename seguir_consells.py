@@ -26,7 +26,7 @@ async def main():
             raw = await page.locator("a[href]").evaluate_all(r"""links => links.map(a => ({
                 title: (a.innerText || '').replace(/\\s+/g,' ').trim(),
                 url: a.href.split('#')[0].split('?')[0]
-            })).filter(x => x.title && (/\\.pdf$/i.test(x.url) || /\/documents\//i.test(x.url)))""")
+            })).filter(x => x.title && (x.url.toLowerCase().endsWith('.pdf') || x.url.toLowerCase().includes('/documents/')))""")
             unique = {}
             for item in raw:
                 if not item["url"].startswith("https://"):
