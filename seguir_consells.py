@@ -23,12 +23,12 @@ async def main():
             if resp is None or resp.status != 200:
                 raise RuntimeError(f"Error HTTP a {source['nom']}: {resp.status if resp else 'cap resposta'}")
             await page.wait_for_timeout(4000)
-            raw = await page.locator("a[href]").evaluate_all(r"""links => links.map(a => ({
-            print("URL final:", page.url)
-            print("Títol pàgina:", await page.title())
-            print("Total enllaços:", await page.locator("a[href]").count())
-            print("Enllaços PDF:", await page.locator("a[href*='.pdf']").count())
-                title: (a.innerText || '').replace(/\\s+/g,' ').trim(),
+            print("URL final:", page.url, flush=True)
+            print("Títol pàgina:", await page.title(), flush=True)
+            print("Total enllaços:", await page.locator("a[href]").count(), flush=True)
+            print("Enllaços PDF:", await page.locator("a[href*='.pdf']").count(), flush=True)
+            raw = await page.locator("a[href]").evaluate_all("""links => links.map(a => ({
+                title: (a.innerText || '').replace(/\\s+/g, ' ').trim(),
                 url: a.href.split('#')[0].split('?')[0]
             })).filter(x => x.title && (x.url.toLowerCase().endsWith('.pdf') || x.url.toLowerCase().includes('/documents/')))""")
             unique = {}
