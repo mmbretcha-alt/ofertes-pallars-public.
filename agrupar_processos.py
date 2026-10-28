@@ -1,7 +1,8 @@
 
-"""Agrupacio prudent de convocatories dels consells.
+"""Agrupacio provisional de documents de convocatories.
 
-No confirma terminis oberts ni modifica la web publica.
+No confirma que els documents pertanyin al mateix expedient.
+No modifica la web publica.
 """
 
 import json
@@ -23,7 +24,7 @@ PERFILS = [
     (r"tecnic.{0,12}sisi", "Tècnic/a SISI"),
     (r"tecnic.{0,12}arxiu", "Tècnic/a d'arxiu"),
     (r"proteccio.{0,12}civil", "Protecció civil"),
-    (r"coordinador.{0,30}juridic", "Coordinació jurídica"),
+    (r"coordinador.{0,45}juridic", "Coordinació jurídica"),
     (r"administratiu", "Administració"),
     (r"joventut", "Joventut"),
 ]
@@ -44,12 +45,12 @@ def normalitzar(text):
 
 
 def detectar_perfil(doc):
-    text = " ".join([
+    parts = [
         doc.get("document", ""),
         doc.get("url", ""),
         *doc.get("fragments_rellevants", []),
-    ])
-    text = normalitzar(text)
+    ]
+    text = normalitzar(" ".join(parts))
 
     for patro, perfil in PERFILS:
         if re.search(patro, text):
@@ -65,6 +66,7 @@ def detectar_expedient(doc):
     ]
 
     trobats = set()
+
     for text in textos:
         for valor in EXPEDIENT.findall(normalitzar(text)):
             trobats.add(re.sub(r"\s+", "", valor))
@@ -78,89 +80,91 @@ def detectar_expedient(doc):
 def main():
     if not SOURCE.exists():
         raise FileNotFoundError(
-            "Falta resultat_filtre_terminis.json. "
-            "Cal executar primer la lectura i el filtre."
+            "Falta resultat_filtre_terminis.json"
         )
 
     dades = json.loads(SOURCE.read_text(encoding="utf-8"))
 
     candidats = [
-        d for d in dades.get("documents", [])
-        if d.get("categoria") == "possible_convocatoria"
+        doc for doc in dades.get("documents", [])
+        if doc.get("categoria") == "possible_convocatoria"
     ]
 
     grups = {}
-    sense_expedient = []
+    pendents = []
 
     for doc in candidats:
         font = doc.get("font", "")
         perfil = detectar_perfil(doc)
         expedient = detectar_expedient(doc)
 
-        document = {
+        fitxa = {
             "titol": doc.get("document", ""),
             "url": doc.get("url", ""),
-            "perfil_detectat": perfil,
             "expedient_detectat": expedient,
+            "estat_inscripcio": "no_verificat",
         }
 
-        if expedient:
-            clau = (font, expedient)
-            if clau not in grups:
-                grups[clau] = {
-                    "font": font,
-                    "expedient": expedient,
-                    "perfils_detectats": [],
-                    "documents": [],
-                    "estat_inscripcio": "no_verificat",
-                    "requereix_revisio": True,
-                }
-
-            grup = grups[clau]
-            if perfil and perfil not in grup["perfils_detectats"]:
-                grup["perfils_detectats"].append(perfil)
-
-            if not any(
-                d["url"] == document["url"]
-                for d in grup["documents"]
-            ):
-                grup["documents"].append(document)
-
-        else:
-            sense_expedient.append({
+        if not perfil:
+            pendents.append({
                 "font": font,
-                "perfil_possible": perfil,
-                "document": document,
-                "motiu": (
-                    "Sense expedient identificat amb prou "
-                    "certesa. No s'agrupa automaticament."
-                ),
-                "estat_inscripcio": "no_verificat",
+                "document": fitxa,
+                "motiu": "Perfil professional no identificat",
+                "requereix_revisio": True,
             })
+            continue
+
+        clau = (font, perfil)
+
+        if clau not in grups:
+            grups[clau] = {
+                "font": font,
+                "perfil": perfil,
+                "tipus_agrupacio": "provisional_per_perfil",
+                "mateix_expedient_confirmat": False,
+                "estat_inscripcio": "no_verificat",
+                "requereix_revisio": True,
+                "documents": [],
+            }
+
+        if not any(
+            d["url"] == fitxa["url"]
+            for d in grups[clau]["documents"]
+        ):
+            grups[clau]["documents"].append(fitxa)
+
+    grups_ordenats = sorted(
+        grups.values(),
+        key=lambda grup: (grup["font"], grup["perfil"]),
+    )
 
     sortida = {
         "data_analisi": datetime.now(
             ZoneInfo("Europe/Madrid")
         ).isoformat(),
         "avis": (
-            "Agrupacio provisional per expedient explicit. "
-            "No confirma ofertes obertes ni terminis vigents."
+            "Agrupacio provisional per perfil. "
+            "Els documents d'un grup poden correspondre "
+            "a expedients diferents. Cap oferta oberta "
+            "ni cap termini vigent ha estat confirmat."
         ),
         "documents_candidats": len(candidats),
-        "grups_amb_expedient": len(grups),
-        "documents_sense_expedient": len(sense_expedient),
-        "grups": list(grups.values()),
-        "pendents_identificacio": sense_expedient,
+        "perfils_agrupats": len(grups_ordenats),
+        "documents_sense_perfil": len(pendents),
+        "grups": grups_ordenats,
+        "pendents_identificacio": pendents,
     }
 
     DEST.write_text(
-        json.dumps(sortida, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(
+            sortida, ensure_ascii=False, indent=2
+        ) + "\n",
         encoding="utf-8",
     )
 
     print("Documents candidats:", len(candidats))
-    print("Grups amb expedient:", len(grups))
-    print("Documents sense expedient:", len(sense_expedient))
+    print("Perfils agrupats:", len(grups_ordenats))
+    print("Documents sense perfil:", len(pendents))
     print("Resultat:", DEST)
     print("Cap oferta oberta confirmada.")
     print("La web publica no s'ha modificat.")
