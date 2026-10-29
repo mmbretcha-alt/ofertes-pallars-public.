@@ -1,0 +1,17 @@
+name: Provar acces pagina Sobira
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  provar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Installar dependencies
+        run: python -m pip install requests beautifulsoup4
+      - name: Comprovar acces al Consell del Sobira
+        run: python provar_pagina_sobira.py
