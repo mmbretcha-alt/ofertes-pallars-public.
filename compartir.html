@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Compartir ofertes dels Pallars · Reintegra</title>
+<style>body{font-family:system-ui,sans-serif;max-width:650px;margin:30px auto;padding:16px;color:#172438;line-height:1.6}h1{color:#073b46}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f7fa;padding:18px;border-radius:10px}button,a.action{display:inline-block;background:#087866;color:white;padding:13px 18px;border:0;border-radius:8px;font-size:16px;text-decoration:none;cursor:pointer;margin:5px 7px 5px 0}button:disabled{opacity:.5}small{color:#666}</style>
+</head><body><h1>Compartir les ofertes dels Pallars</h1>
+<p>El resum es carrega del fitxer actualitzat del repositori. Revisa'l abans de compartir-lo.</p>
+<pre id="missatge">Carregant el resum...</pre>
+<button id="whatsapp" disabled>Obrir WhatsApp amb el missatge</button>
+<button id="copiar" disabled>Copiar missatge</button>
+<p id="estat" role="status"></p>
+<p><small>WhatsApp no envia el missatge automàticament: cal escollir el grup de Reintegra i prémer Envia.</small></p>
+<p><a href="./">Tornar a les ofertes</a></p>
+<script>
+let text='';
+const status=document.getElementById('estat');
+(async()=>{
+try {
+  const r=await fetch('./resum_whatsapp.txt?nocache='+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw Error('HTTP '+r.status);
+  text=await r.text();
+  if(!text.trim())throw Error('Resum buit');
+  document.getElementById('missatge').textContent=text;
+  document.getElementById('whatsapp').disabled=false;
+  document.getElementById('copiar').disabled=false;
+}catch(err){document.getElementById('missatge').textContent='No ha estat possible carregar el resum.';status.textContent=String(err);}
+})();
+document.getElementById('whatsapp').addEventListener('click',()=>{if(text) window.open('https://api.whatsapp.com/send?text='+encodeURIComponent(text),'_blank','noopener,noreferrer');});
+document.getElementById('copiar').addEventListener('click',async()=>{if(!text)return;try{await navigator.clipboard.writeText(text);status.textContent='Missatge copiat.';}catch(e){status.textContent='No s’ha pogut copiar automàticament. Selecciona el text del requadre.';}});
+</script></body></html>
