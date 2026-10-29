@@ -3,6 +3,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Actualitzar ofertes de Sobirà Dinàmic
+      - Actualitzar convocatories Consell Sobira
+      - Seguiment documents consells comarcals
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: '15 9,15 * * *'
 permissions:
   contents: read
   pages: write
@@ -12,12 +21,15 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
