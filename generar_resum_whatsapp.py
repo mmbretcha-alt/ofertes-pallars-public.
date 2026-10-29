@@ -17,14 +17,14 @@ soup = BeautifulSoup((ROOT / "index.html").read_text(encoding="utf-8"), "html.pa
 previous = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else None
 
 def normalize(s):
-    return re.sub(r"\\s+", " ", s or "").strip().casefold()
+    return re.sub(r"\s+", " ", s or "").strip().casefold()
 
 found = {}
 for section in soup.select("section.section"):
     h = section.find("h2")
     if h is None:
         continue
-    source = re.sub(r"\\s*\\([^)]*\\)\\s*$", "", h.get_text(" ", strip=True))
+    source = re.sub(r"\s*\([^)]*\)\s*$", "", h.get_text(" ", strip=True))
     for article in section.find_all("article"):
         strong = article.find("strong")
         if not strong:
