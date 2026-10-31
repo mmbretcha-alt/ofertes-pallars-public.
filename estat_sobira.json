@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-10-30T08:43:19.390878+01:00",
+  "consulta": "2026-10-31T08:37:04.287968+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -16,11 +16,6 @@
       "id": "rec95TEYfjlyi6uvr",
       "titol": "NETEJADOR/A",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec95TEYfjlyi6uvr"
-    },
-    {
-      "id": "recVsX6nAA0bZhQhm",
-      "titol": "2 Psicòleg/a Social SIE - Alt Pirineu i Aran",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recVsX6nAA0bZhQhm"
     },
     {
       "id": "recZG1qwZV5cG03Be",
@@ -48,6 +43,11 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recpcpgB64gmaSGzY"
     },
     {
+      "id": "recs65SsD7xsQQUYP",
+      "titol": "VÀRIES OFERTES A PORTAINÉ I ESPOT. TEMPORADA D'ESQUÍ 2026 - 2027",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recs65SsD7xsQQUYP"
+    },
+    {
       "id": "recu6vHgGCr8pFpFX",
       "titol": "Enginyer/a d'obra civil o edificació",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recu6vHgGCr8pFpFX"
@@ -58,6 +58,10 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recyJr6U7CsUTbtyn"
     }
   ],
-  "noves_respecte_a_la_web_anterior": [],
-  "no_detectades_respecte_a_la_web_anterior": []
+  "noves_respecte_a_la_web_anterior": [
+    "recs65SsD7xsQQUYP"
+  ],
+  "no_detectades_respecte_a_la_web_anterior": [
+    "recVsX6nAA0bZhQhm"
+  ]
 }
