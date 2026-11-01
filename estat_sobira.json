@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-10-31T08:37:04.287968+01:00",
+  "consulta": "2026-11-01T08:40:38.567616+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -8,19 +8,19 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec3QIvlxDMyibwog"
     },
     {
-      "id": "rec7fX95Zq8vPqVh1",
-      "titol": "RESPONSABLE DE GESTIÓ I DESENVOLUPAMENT DE L'ESCORXADOR I LA SALA DE DESFER DE SORT",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7fX95Zq8vPqVh1"
-    },
-    {
       "id": "rec95TEYfjlyi6uvr",
       "titol": "NETEJADOR/A",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec95TEYfjlyi6uvr"
     },
     {
-      "id": "recZG1qwZV5cG03Be",
-      "titol": "Recepcionista",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recZG1qwZV5cG03Be"
+      "id": "recTRC9N5ZgHVmQWl",
+      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
+    },
+    {
+      "id": "recaoLJTq6tsVZeWM",
+      "titol": "ISP522-26 - Administratiu/iva C1 - 13",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recaoLJTq6tsVZeWM"
     },
     {
       "id": "recdMz5ZG1cf7iExA",
@@ -28,29 +28,14 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recdMz5ZG1cf7iExA"
     },
     {
-      "id": "reciUllVQBEv2xgCk",
-      "titol": "Infermer/a",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reciUllVQBEv2xgCk"
-    },
-    {
       "id": "recoZ87GDndArvpHl",
       "titol": "Gerocultor/a Torn Nit",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recoZ87GDndArvpHl"
     },
     {
-      "id": "recpcpgB64gmaSGzY",
-      "titol": "Gerocultor/a",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recpcpgB64gmaSGzY"
-    },
-    {
       "id": "recs65SsD7xsQQUYP",
       "titol": "VÀRIES OFERTES A PORTAINÉ I ESPOT. TEMPORADA D'ESQUÍ 2026 - 2027",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recs65SsD7xsQQUYP"
-    },
-    {
-      "id": "recu6vHgGCr8pFpFX",
-      "titol": "Enginyer/a d'obra civil o edificació",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recu6vHgGCr8pFpFX"
     },
     {
       "id": "recyJr6U7CsUTbtyn",
@@ -59,9 +44,14 @@
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "recs65SsD7xsQQUYP"
+    "recTRC9N5ZgHVmQWl",
+    "recaoLJTq6tsVZeWM"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "recVsX6nAA0bZhQhm"
+    "rec7fX95Zq8vPqVh1",
+    "recZG1qwZV5cG03Be",
+    "reciUllVQBEv2xgCk",
+    "recpcpgB64gmaSGzY",
+    "recu6vHgGCr8pFpFX"
   ]
 }
