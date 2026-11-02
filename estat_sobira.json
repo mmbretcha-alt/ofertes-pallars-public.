@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-01T08:40:38.567616+01:00",
+  "consulta": "2026-11-02T09:04:47.469039+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -43,15 +43,6 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recyJr6U7CsUTbtyn"
     }
   ],
-  "noves_respecte_a_la_web_anterior": [
-    "recTRC9N5ZgHVmQWl",
-    "recaoLJTq6tsVZeWM"
-  ],
-  "no_detectades_respecte_a_la_web_anterior": [
-    "rec7fX95Zq8vPqVh1",
-    "recZG1qwZV5cG03Be",
-    "reciUllVQBEv2xgCk",
-    "recpcpgB64gmaSGzY",
-    "recu6vHgGCr8pFpFX"
-  ]
+  "noves_respecte_a_la_web_anterior": [],
+  "no_detectades_respecte_a_la_web_anterior": []
 }
