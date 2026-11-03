@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-02T09:04:47.469039+01:00",
+  "consulta": "2026-11-03T08:55:24.144435+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -18,11 +18,6 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     {
-      "id": "recaoLJTq6tsVZeWM",
-      "titol": "ISP522-26 - Administratiu/iva C1 - 13",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recaoLJTq6tsVZeWM"
-    },
-    {
       "id": "recdMz5ZG1cf7iExA",
       "titol": "Gerocultor/a torn matí",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recdMz5ZG1cf7iExA"
@@ -38,11 +33,20 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recs65SsD7xsQQUYP"
     },
     {
+      "id": "recy94GyqumfdeCuD",
+      "titol": "Professorat nivell selectivitat",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recy94GyqumfdeCuD"
+    },
+    {
       "id": "recyJr6U7CsUTbtyn",
       "titol": "RECEPCIONISTA",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recyJr6U7CsUTbtyn"
     }
   ],
-  "noves_respecte_a_la_web_anterior": [],
-  "no_detectades_respecte_a_la_web_anterior": []
+  "noves_respecte_a_la_web_anterior": [
+    "recy94GyqumfdeCuD"
+  ],
+  "no_detectades_respecte_a_la_web_anterior": [
+    "recaoLJTq6tsVZeWM"
+  ]
 }
