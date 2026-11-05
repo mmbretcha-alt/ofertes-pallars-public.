@@ -1,39 +1,15 @@
 {
-  "consultat_el": "2026-11-04T09:16:00.471927+01:00",
+  "consultat_el": "2026-11-05T09:17:50.455333+01:00",
   "avis": "Documents detectats; no s'ha validat que siguin places noves o amb inscripció oberta.",
   "fonts": {
     "Consell Comarcal del Pallars Jussà": [
-      {
-        "titol_document": "Anunci de convocatòria i bases reguladores 18052026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260518_publicacio_anunci_doc-anunci-publicacio-bases-reguladores-i-convocatoria-proces-selectiu-18052026.pdf"
-      },
       {
         "titol_document": "Anunci de rectificació BOP",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260518_uns-altres_doc-anunci-rectificacio-error-bopl-91-15052026.pdf"
       },
       {
-        "titol_document": "Anunci publicació BOP Núm. 94 20052026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260520_uns-altres_doc-anunci-convocatoria-i-bases-publicat-al-bopl-num-94-20052026.pdf"
-      },
-      {
         "titol_document": "Anunci de convocatòria DOGC 9672 26052026",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260526_uns-altres_publicacio-convocatoria-dogc-num-9672-de-26052026-1.pdf"
-      },
-      {
-        "titol_document": "Anunci publicació DOGC 9674 28052026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260529_uns-altres_doc-anunci-publicat-dogc-9674-28052026.pdf"
-      },
-      {
-        "titol_document": "Anunci de convocatòria i bases reguladores 25072026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260608_uns-altres_bases-de-convocatoria_doc-bases-seleccio-2-treballadora-social-rlt-74-i-87-opo-2023-27052026.pdf"
-      },
-      {
-        "titol_document": "Anunci publicació BOP Núm. 110 11062026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260611_uns-altres_doc-anunci-publicat-al-bop-lleida-num-110-11062026.pdf"
-      },
-      {
-        "titol_document": "Anunci publicació DOGC Núm 9689 18062026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260618_uns-altres_doc-anunci-publicat-al-dogc-num-9689-18062026.pdf"
       },
       {
         "titol_document": "Anunci de convocatòria i bases reguladores 08072026",
@@ -56,56 +32,24 @@
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260722_uns-altres_doc-anunci-publicat-extracte-convocatoria-dogc-num-9710-17072026.pdf"
       },
       {
-        "titol_document": "Anunci relació provisional d’aspirants admesos i exclosos del procès selectiu 22072026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260723_uns-altres_doc-anunci-publicacio-aprovacio-prov-llistat-admesos-i-exclosos-22072026.pdf"
-      },
-      {
         "titol_document": "Anunci publicació al DOGC Núm. 9714 2307202",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260723_uns-altres_doc-anunci-publicat-extracte-convocatoria-dogc-num-9714-23072026.pdf"
-      },
-      {
-        "titol_document": "Anunci aprovació definitiva llistat admesos i exclosos i nomenament tribunal 07082026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260807_comunicacio_anunci-aprov-definitiva-llistat-admesos-i-exclosos-i-nomenament-tribunal-07082026.pdf"
       },
       {
         "titol_document": "Anunci publicació aprovació provisional llistat admesos i exclosos 0708206",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260807_comunicacio_doc-anunci-publicacio-aprovacio-prov-llistat-admesos-i-exclosos-0708206.pdf"
       },
       {
-        "titol_document": "Anunci convocatòria aspirants fase oposició 11082026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260810_publicacio_anunci_anunci-convocatoria-aspirants-fase-oposicio-11082026.pdf"
-      },
-      {
         "titol_document": "Anunci publicació aprovació provisional llistat admesos i exclosos 13082026",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260813_publicacio_anunci_doc-anunci-publicacio-aprovacio-prov-llistat-admesos-i-exclosos-13082026.pdf"
-      },
-      {
-        "titol_document": "Anunci del del resultat de baremació 28082026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260828_comunicacio_anunci-resultat-baremacio-placa-treballador_a-social-01092026.pdf"
-      },
-      {
-        "titol_document": "Anunci d'aprovació provisional d'admesos i exclosos 28082026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260828_publicacio_anunci_doc-anunci-publicacio-aprovacio-prov-llistat-admesos-i-exclosos-tecnic-sisi-28082026.pdf"
       },
       {
         "titol_document": "Anunci publicació aprovació provisional llistat admesos i exclosos 28082026",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260901_comunicacio_doc-anunci-publicacio-aprovacio-prov-llistat-admesos-i-exclosos-tecnic-arxiu-28082026.pdf"
       },
       {
-        "titol_document": "Anunci d’aprovació definitiva d’admesos i exclosos, nomenament del tribunal i data constitució del tribunal 16092026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260922_comunicacio_anunci-aprov-definitiva-llistat-admesos-i-exclosos-i-nomenament-tribunal-16092026.pdf"
-      },
-      {
         "titol_document": "Anunci de convocatòria d’aspirants per la fase d’oposició lloc de treball: coordinador serveis jurídico-administratius",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260925_comunicacio_anunci-convocatoria-aspirants-fase-oposicio-25092026.pdf"
-      },
-      {
-        "titol_document": "Anunci de convocatòria d’aspirants per la fase d’oposició i d’entrevista de lloc de treball: tècnic/a del sisi",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260928_comunicacio_anunci-convocatoria-aspirants-fase-oposicio-28092026.pdf"
-      },
-      {
-        "titol_document": "Anunci de publicació del resultat del procés de selecció 29092026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20260929_comunicacio_doc-anunci-proces-de-seleccio-placa-treball-social.pdf"
       },
       {
         "titol_document": "Anunci de convocatòria i bases reguladores 05102026",
@@ -118,10 +62,6 @@
       {
         "titol_document": "Anunci de convocatòria i bases reguladores 05102026",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261005_publicacio_anunci_doc-anunci-publicacio-bases-reguladores-i-convocatoria-proces-selectiu-educador-social-eaia.pdf"
-      },
-      {
-        "titol_document": "Anunci de convocatòria i bases reguladores 06102026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261006_comunicacio_doc-anunci-publicacio-bases-reguladores-i-convocatoria-proces-selectiu-terapeuta-ocupacional.pdf"
       },
       {
         "titol_document": "Anunci d’aprovació definitiva d’admesos i exclosos, nomenament del tribunal i data constitució del tribunal 07102026",
@@ -138,14 +78,6 @@
       {
         "titol_document": "Anunci rectificació errors 08102026",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261008_comunicacio_doc-anunci-rectificacio-errors-08102026.pdf"
-      },
-      {
-        "titol_document": "Anunci publicat al Núm. BOP 192 08102026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261008_publicacio-bopl-192-de-08102026-bases-i-convocatoria-terapeuta-ocupacional.pdf"
-      },
-      {
-        "titol_document": "Anunci resultat baremació plaça tècnic sisi 09102026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261009_comunicacio_anunci-resultat-baremacio-placa-tecnic-sisi-09102026.pdf"
       },
       {
         "titol_document": "Anunci de convocatòria i bases reguladores 15102026",
@@ -172,16 +104,16 @@
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261027_comunicacio_anunci-convocatoria-aspirants-fase-oposicio-i-ratificacio-llista-admesos-i-exclosos-27102026.pdf"
       },
       {
-        "titol_document": "Anunci de publicació del resultat del procés de selecció 28102026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261028_comunicacio_doc-anunci-proces-de-seleccio-placa-tecnic_a-sisi-20102026.pdf"
-      },
-      {
         "titol_document": "Anunci de convocatòria i bases reguladores 28102026",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261028_comunicacio_doc-anunci-publicacio-bases-reguladores-i-convocatoria-proces-selectiu-tecnic_a-serveis-als-municipis.pdf"
       },
       {
         "titol_document": "Anunci publicació BOP Núm. 206 30102026",
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261028_publicacio-bop-206-del-28102026-anunci-bases-i-convocatoria-tecnic-proteccio-civil.pdf"
+      },
+      {
+        "titol_document": "Anunci publicat al Núm. BOP 207 29102026",
+        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261029_anunci-bop-207-de-29102026-bases-i-convocatoria-proces-dinamitzador-ocupacional-contracte-relleu.pdf"
       },
       {
         "titol_document": "Anunci publicació BOP Núm. 208 30102026",
@@ -192,12 +124,20 @@
         "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261102_publicacio_doc-anunci-publicacio-aprovacio-prov-llistat-admesos-i-exclosos-02112026.pdf"
       },
       {
-        "titol_document": "Anunci de convocatòria i bases reguladores administratiu-rlt 85- c1",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/bases-reguladores-administratiu-rlt-85-c1.pdf"
+        "titol_document": "Anunci publicat al BOE Núm. 272 02112026",
+        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261102_uns-altres_anunci-publicat-al-boe-num-272-02112026.pdf"
       },
       {
-        "titol_document": "Anunci publicat al BOE Núm. 255 14102026",
-        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/boe-a-2026-21355.pdf"
+        "titol_document": "Anunci publicat al BOE Núm. 273 03112026",
+        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261103_uns-altres_publicacio-boe-03112026-anunci-convocatoria.pdf"
+      },
+      {
+        "titol_document": "Anunci de convocatòria i bases reguladores 04112026",
+        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/20261104_publicacio_doc-anunci-publicacio-bases-reguladores-i-convocatoria-proces-selectiu-tecnic_a-serveis-urbanistics-municipals.pdf"
+      },
+      {
+        "titol_document": "Anunci de convocatòria i bases reguladores administratiu-rlt 85- c1",
+        "url": "https://www.pallarsjussa.cat/tramits-i-gestions/bases-reguladores-administratiu-rlt-85-c1.pdf"
       },
       {
         "titol_document": "Anunci publicat al BOE Núm. 255 14102026",
