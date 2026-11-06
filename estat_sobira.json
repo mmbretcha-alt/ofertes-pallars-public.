@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-05T08:58:36.066564+01:00",
+  "consulta": "2026-11-06T08:56:04.686991+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -36,13 +36,10 @@
       "id": "recy94GyqumfdeCuD",
       "titol": "Professorat nivell selectivitat",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recy94GyqumfdeCuD"
-    },
-    {
-      "id": "recyJr6U7CsUTbtyn",
-      "titol": "RECEPCIONISTA",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recyJr6U7CsUTbtyn"
     }
   ],
   "noves_respecte_a_la_web_anterior": [],
-  "no_detectades_respecte_a_la_web_anterior": []
+  "no_detectades_respecte_a_la_web_anterior": [
+    "recyJr6U7CsUTbtyn"
+  ]
 }
