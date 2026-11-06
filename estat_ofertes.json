@@ -1,5 +1,5 @@
 {
-  "data": "2026-11-05",
+  "data": "2026-11-06",
   "anuncis": {
     "85d3cbe4cc1c88886687": {
       "font": "Sobirà Dinàmic",
@@ -35,11 +35,6 @@
       "font": "Sobirà Dinàmic",
       "titol": "Professorat nivell selectivitat",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recy94GyqumfdeCuD"
-    },
-    "62b6fefa6614c710c334": {
-      "font": "Sobirà Dinàmic",
-      "titol": "RECEPCIONISTA",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recyJr6U7CsUTbtyn"
     },
     "7667072f6ca163a623a5": {
       "font": "SOC – Feina Activa",
@@ -151,15 +146,15 @@
       "titol": "Convocatòria del procés de selecció de personal funcionari d’un/a tècnic/a de protecció civil i serveis - Exp. 1983/2025",
       "url": "https://www.pallarsjussa.cat/tramits-i-gestions/convocatories-de-personal"
     },
-    "3587713e030386ca7b15": {
+    "54edb46385b37fe25881": {
       "font": "Consell Comarcal del Pallars Sobirà",
-      "titol": "Descarrega Bases convocatoria joventut",
-      "url": "https://seu-e.cat:443/documents/2789477/21887513/Bases+convocatoria+joventut/1ab9acc6-d90a-403e-ac7f-fc50d14d587a"
+      "titol": "Descarrega BASES CONVOCATORIA",
+      "url": "https://seu-e.cat:443/documents/2789477/22012598/BASES+CONVOCATORIA/5d885728-0906-494d-93fc-fd92fac5a958"
     },
-    "c208ce26239b257391d2": {
+    "19e82e5326187d5442c3": {
       "font": "Consell Comarcal del Pallars Sobirà",
-      "titol": "Descarrega Decret convocatoria joventut",
-      "url": "https://seu-e.cat:443/documents/2789477/21887513/Decret+convocatoria+joventut/092f5882-5619-4612-9873-e212988c447c"
+      "titol": "Descarrega DECRET CONVOCATORIA",
+      "url": "https://seu-e.cat:443/documents/2789477/22012598/DECRET+CONVOCATORIA/1f0d3aa7-ff74-4f7e-83b0-089c6da07e03"
     }
   }
 }

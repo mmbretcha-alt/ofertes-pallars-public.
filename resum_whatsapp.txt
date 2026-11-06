@@ -1,7 +1,12 @@
 📢 OFERTES DE FEINA ALS PALLARS
-Actualització: 2026-11-05
+Actualització: 2026-11-06
 
-No s'han detectat registres nous respecte de l'última comprovació.
+Novetats detectades respecte de l'última comprovació: 2
+• Consell Comarcal del Pallars Sobirà: 2
+
+Ofertes i documents nous:
+• Descarrega BASES CONVOCATORIA (Consell Comarcal del Pallars Sobirà)
+• Descarrega DECRET CONVOCATORIA (Consell Comarcal del Pallars Sobirà)
 
 🔗 Consulta les ofertes i els documents:
 https://mmbretcha-alt.github.io/ofertes-pallars-public./
