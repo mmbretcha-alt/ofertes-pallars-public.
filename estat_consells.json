@@ -1,5 +1,5 @@
 {
-  "consultat_el": "2026-11-06T09:13:39.435863+01:00",
+  "consultat_el": "2026-11-07T08:54:47.998744+01:00",
   "avis": "Documents detectats; no s'ha validat que siguin places noves o amb inscripció oberta.",
   "fonts": {
     "Consell Comarcal del Pallars Jussà": [
@@ -154,12 +154,20 @@
     ],
     "Consell Comarcal del Pallars Sobirà": [
       {
-        "titol_document": "Descarrega Bases convocatoria joventut",
-        "url": "https://seu-e.cat/documents/2789477/21887513/Bases+convocatoria+joventut/1ab9acc6-d90a-403e-ac7f-fc50d14d587a"
+        "titol_document": "Descarrega BASES CONVOCATORIA",
+        "url": "https://seu-e.cat/documents/2789477/22012598/BASES+CONVOCATORIA/5d885728-0906-494d-93fc-fd92fac5a958"
       },
       {
-        "titol_document": "Descarrega Decret convocatoria joventut",
-        "url": "https://seu-e.cat/documents/2789477/21887513/Decret+convocatoria+joventut/092f5882-5619-4612-9873-e212988c447c"
+        "titol_document": "Descarrega DECRET CONVOCATORIA",
+        "url": "https://seu-e.cat/documents/2789477/22012598/DECRET+CONVOCATORIA/1f0d3aa7-ff74-4f7e-83b0-089c6da07e03"
+      },
+      {
+        "titol_document": "Descarrega BASES TECNIC-A ACOMPANYAMENT",
+        "url": "https://seu-e.cat/documents/2789477/22017133/BASES+TECNIC-A+ACOMPANYAMENT/5f12a4ae-b904-457b-957f-a8c6d6b44f0f"
+      },
+      {
+        "titol_document": "Descarrega DECRET CONVOCATORIA TECNIC-A ACOMPANYAMENT",
+        "url": "https://seu-e.cat/documents/2789477/22017133/DECRET+CONVOCATORIA+TECNIC-A+ACOMPANYAMENT/9661b207-4830-4e3b-be20-2a0a0133b8c0"
       }
     ]
   }
