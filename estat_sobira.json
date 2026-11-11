@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-10T08:59:09.170374+01:00",
+  "consulta": "2026-11-11T08:57:46.400896+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -11,11 +11,6 @@
       "id": "rec7DWc1irQrDemXl",
       "titol": "Xofer/a de camió per al servei de recollida de residus municipals durant el temps de baixa per paternitat.",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7DWc1irQrDemXl"
-    },
-    {
-      "id": "rec7NmUGiUqOOOW7C",
-      "titol": "TÈCNIC/A D'ACOMPANYAMENT PROGRAMA TREBALL I FORMACIÓ 2026 I PROJECTE VINCLES",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7NmUGiUqOOOW7C"
     },
     {
       "id": "rec8patZfTlqW4zH0",
@@ -36,6 +31,11 @@
       "id": "recdMz5ZG1cf7iExA",
       "titol": "Gerocultor/a torn matí",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recdMz5ZG1cf7iExA"
+    },
+    {
+      "id": "reche16oFwOzLkJvc",
+      "titol": "monitor/a",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reche16oFwOzLkJvc"
     },
     {
       "id": "reciHVtEIvNlIA2Th",
@@ -59,13 +59,9 @@
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "rec8patZfTlqW4zH0",
-    "reciHVtEIvNlIA2Th",
-    "reckLyRW7zXqwY5Z7"
+    "reche16oFwOzLkJvc"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "recTRC9N5ZgHVmQWl",
-    "recZHzH7ZImbG4SKi",
-    "recy94GyqumfdeCuD"
+    "rec7NmUGiUqOOOW7C"
   ]
 }
