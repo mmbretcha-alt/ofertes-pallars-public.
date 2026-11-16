@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-15T08:50:25.245867+01:00",
+  "consulta": "2026-11-16T10:26:18.720514+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -13,14 +13,19 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7DWc1irQrDemXl"
     },
     {
+      "id": "rec7NmUGiUqOOOW7C",
+      "titol": "TÈCNIC/A D'ACOMPANYAMENT PROGRAMA TREBALL I FORMACIÓ 2026 I PROJECTE VINCLES",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7NmUGiUqOOOW7C"
+    },
+    {
       "id": "rec8patZfTlqW4zH0",
       "titol": "RECEPCIONISTA",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec8patZfTlqW4zH0"
     },
     {
-      "id": "rec95TEYfjlyi6uvr",
-      "titol": "NETEJADOR/A",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec95TEYfjlyi6uvr"
+      "id": "recKODiCrfK8XPD16",
+      "titol": "RESPONSABLE D'ESDEVENIMENTS I ACTIVITATS TURÍSTIQUES",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recKODiCrfK8XPD16"
     },
     {
       "id": "recL8TVJzmWRDsyxU",
@@ -51,13 +56,14 @@
       "id": "recoZ87GDndArvpHl",
       "titol": "Gerocultor/a Torn Nit",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recoZ87GDndArvpHl"
-    },
-    {
-      "id": "recs65SsD7xsQQUYP",
-      "titol": "VÀRIES OFERTES A PORTAINÉ I ESPOT. TEMPORADA D'ESQUÍ 2026 - 2027",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recs65SsD7xsQQUYP"
     }
   ],
-  "noves_respecte_a_la_web_anterior": [],
-  "no_detectades_respecte_a_la_web_anterior": []
+  "noves_respecte_a_la_web_anterior": [
+    "rec7NmUGiUqOOOW7C",
+    "recKODiCrfK8XPD16"
+  ],
+  "no_detectades_respecte_a_la_web_anterior": [
+    "rec95TEYfjlyi6uvr",
+    "recs65SsD7xsQQUYP"
+  ]
 }
