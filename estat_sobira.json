@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-16T10:26:18.720514+01:00",
+  "consulta": "2026-11-17T08:59:37.235943+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -11,11 +11,6 @@
       "id": "rec7DWc1irQrDemXl",
       "titol": "Xofer/a de camió per al servei de recollida de residus municipals durant el temps de baixa per paternitat.",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7DWc1irQrDemXl"
-    },
-    {
-      "id": "rec7NmUGiUqOOOW7C",
-      "titol": "TÈCNIC/A D'ACOMPANYAMENT PROGRAMA TREBALL I FORMACIÓ 2026 I PROJECTE VINCLES",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7NmUGiUqOOOW7C"
     },
     {
       "id": "rec8patZfTlqW4zH0",
@@ -31,6 +26,11 @@
       "id": "recL8TVJzmWRDsyxU",
       "titol": "AJUDANT/A DE PEÓ PEL SERVEI DE RESIDUS",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recL8TVJzmWRDsyxU"
+    },
+    {
+      "id": "recTRC9N5ZgHVmQWl",
+      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     {
       "id": "recdMz5ZG1cf7iExA",
@@ -59,11 +59,9 @@
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "rec7NmUGiUqOOOW7C",
-    "recKODiCrfK8XPD16"
+    "recTRC9N5ZgHVmQWl"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "rec95TEYfjlyi6uvr",
-    "recs65SsD7xsQQUYP"
+    "rec7NmUGiUqOOOW7C"
   ]
 }
