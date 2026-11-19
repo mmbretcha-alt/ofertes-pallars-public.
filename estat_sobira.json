@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-18T08:58:16.154171+01:00",
+  "consulta": "2026-11-19T09:01:22.051048+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -18,6 +18,11 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec8patZfTlqW4zH0"
     },
     {
+      "id": "recFZcsXS7bX46yHw",
+      "titol": "REPARTIDOR/A MAGATZEMISTA",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recFZcsXS7bX46yHw"
+    },
+    {
       "id": "recKODiCrfK8XPD16",
       "titol": "RESPONSABLE D'ESDEVENIMENTS I ACTIVITATS TURÍSTIQUES",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recKODiCrfK8XPD16"
@@ -26,11 +31,6 @@
       "id": "recL8TVJzmWRDsyxU",
       "titol": "AJUDANT/A DE PEÓ PEL SERVEI DE RESIDUS",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recL8TVJzmWRDsyxU"
-    },
-    {
-      "id": "recTRC9N5ZgHVmQWl",
-      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     {
       "id": "recdMz5ZG1cf7iExA",
@@ -58,6 +58,10 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recoZ87GDndArvpHl"
     }
   ],
-  "noves_respecte_a_la_web_anterior": [],
-  "no_detectades_respecte_a_la_web_anterior": []
+  "noves_respecte_a_la_web_anterior": [
+    "recFZcsXS7bX46yHw"
+  ],
+  "no_detectades_respecte_a_la_web_anterior": [
+    "recTRC9N5ZgHVmQWl"
+  ]
 }
