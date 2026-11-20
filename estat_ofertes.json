@@ -1,15 +1,10 @@
 {
-  "data": "2026-11-19",
+  "data": "2026-11-20",
   "anuncis": {
     "85d3cbe4cc1c88886687": {
       "font": "Sobirà Dinàmic",
       "titol": "Operari/a per neteja pisos. escales, i habitacions hotels amb permis de conduir vigent",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec3QIvlxDMyibwog"
-    },
-    "d347ca3e736a968843cd": {
-      "font": "Sobirà Dinàmic",
-      "titol": "Xofer/a de camió per al servei de recollida de residus municipals durant el temps de baixa per paternitat.",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7DWc1irQrDemXl"
     },
     "6821b559b55b17aa37fa": {
       "font": "Sobirà Dinàmic",
@@ -46,15 +41,20 @@
       "titol": "RESPONSABLE D'ESDEVENIMENTS I ACTIVITATS TURÍSTIQUES",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recKODiCrfK8XPD16"
     },
-    "cc113d79beede9a1e20c": {
+    "8020c2162df8c64397e9": {
       "font": "Sobirà Dinàmic",
-      "titol": "AJUDANT/A DE PEÓ PEL SERVEI DE RESIDUS",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recL8TVJzmWRDsyxU"
+      "titol": "Monitor/a de menjador",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recl3lYAcrMVbFkg6"
     },
     "51187d542e15e2388c76": {
       "font": "Sobirà Dinàmic",
       "titol": "Gerocultor/a Torn Nit",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recoZ87GDndArvpHl"
+    },
+    "af84df5611c1b76f93ee": {
+      "font": "Sobirà Dinàmic",
+      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     "7667072f6ca163a623a5": {
       "font": "SOC – Feina Activa",
