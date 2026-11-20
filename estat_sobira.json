@@ -1,16 +1,11 @@
 {
-  "consulta": "2026-11-19T09:01:22.051048+01:00",
+  "consulta": "2026-11-20T08:58:37.102296+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
       "id": "rec3QIvlxDMyibwog",
       "titol": "Operari/a per neteja pisos. escales, i habitacions hotels amb permis de conduir vigent",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec3QIvlxDMyibwog"
-    },
-    {
-      "id": "rec7DWc1irQrDemXl",
-      "titol": "Xofer/a de camió per al servei de recollida de residus municipals durant el temps de baixa per paternitat.",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec7DWc1irQrDemXl"
     },
     {
       "id": "rec8patZfTlqW4zH0",
@@ -28,9 +23,9 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recKODiCrfK8XPD16"
     },
     {
-      "id": "recL8TVJzmWRDsyxU",
-      "titol": "AJUDANT/A DE PEÓ PEL SERVEI DE RESIDUS",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recL8TVJzmWRDsyxU"
+      "id": "recTRC9N5ZgHVmQWl",
+      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     {
       "id": "recdMz5ZG1cf7iExA",
@@ -53,15 +48,22 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reckLyRW7zXqwY5Z7"
     },
     {
+      "id": "recl3lYAcrMVbFkg6",
+      "titol": "Monitor/a de menjador",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recl3lYAcrMVbFkg6"
+    },
+    {
       "id": "recoZ87GDndArvpHl",
       "titol": "Gerocultor/a Torn Nit",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recoZ87GDndArvpHl"
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "recFZcsXS7bX46yHw"
+    "recTRC9N5ZgHVmQWl",
+    "recl3lYAcrMVbFkg6"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "recTRC9N5ZgHVmQWl"
+    "rec7DWc1irQrDemXl",
+    "recL8TVJzmWRDsyxU"
   ]
 }
