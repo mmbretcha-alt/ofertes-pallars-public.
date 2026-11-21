@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-20T08:58:37.102296+01:00",
+  "consulta": "2026-11-21T08:55:05.326406+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -23,9 +23,9 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recKODiCrfK8XPD16"
     },
     {
-      "id": "recTRC9N5ZgHVmQWl",
-      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
+      "id": "recPDgkSyErSqhe3o",
+      "titol": "Gericultor/a",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recPDgkSyErSqhe3o"
     },
     {
       "id": "recdMz5ZG1cf7iExA",
@@ -59,11 +59,9 @@
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "recTRC9N5ZgHVmQWl",
-    "recl3lYAcrMVbFkg6"
+    "recPDgkSyErSqhe3o"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "rec7DWc1irQrDemXl",
-    "recL8TVJzmWRDsyxU"
+    "recTRC9N5ZgHVmQWl"
   ]
 }
