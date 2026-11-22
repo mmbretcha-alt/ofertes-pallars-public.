@@ -1,5 +1,5 @@
 {
-  "data": "2026-11-21",
+  "data": "2026-11-22",
   "anuncis": {
     "85d3cbe4cc1c88886687": {
       "font": "Sobirà Dinàmic",
@@ -26,11 +26,6 @@
       "titol": "monitor/a",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reche16oFwOzLkJvc"
     },
-    "47d74d1fa4a74de64927": {
-      "font": "Sobirà Dinàmic",
-      "titol": "RECEPCIONISTA",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reciHVtEIvNlIA2Th"
-    },
     "249c5292b5f019b9c46e": {
       "font": "Sobirà Dinàmic",
       "titol": "Personal de neteja d’apartaments",
@@ -55,6 +50,11 @@
       "font": "Sobirà Dinàmic",
       "titol": "Gericultor/a",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recPDgkSyErSqhe3o"
+    },
+    "af84df5611c1b76f93ee": {
+      "font": "Sobirà Dinàmic",
+      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     "7667072f6ca163a623a5": {
       "font": "SOC – Feina Activa",
