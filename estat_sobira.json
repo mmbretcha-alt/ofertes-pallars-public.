@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-21T08:55:05.326406+01:00",
+  "consulta": "2026-11-22T08:55:28.471087+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -28,6 +28,11 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recPDgkSyErSqhe3o"
     },
     {
+      "id": "recTRC9N5ZgHVmQWl",
+      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
+    },
+    {
       "id": "recdMz5ZG1cf7iExA",
       "titol": "Gerocultor/a torn matí",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recdMz5ZG1cf7iExA"
@@ -36,11 +41,6 @@
       "id": "reche16oFwOzLkJvc",
       "titol": "monitor/a",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reche16oFwOzLkJvc"
-    },
-    {
-      "id": "reciHVtEIvNlIA2Th",
-      "titol": "RECEPCIONISTA",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reciHVtEIvNlIA2Th"
     },
     {
       "id": "reckLyRW7zXqwY5Z7",
@@ -59,9 +59,9 @@
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "recPDgkSyErSqhe3o"
+    "recTRC9N5ZgHVmQWl"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "recTRC9N5ZgHVmQWl"
+    "reciHVtEIvNlIA2Th"
   ]
 }
