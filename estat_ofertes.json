@@ -1,5 +1,5 @@
 {
-  "data": "2026-11-22",
+  "data": "2026-11-23",
   "anuncis": {
     "85d3cbe4cc1c88886687": {
       "font": "Sobirà Dinàmic",
@@ -26,11 +26,6 @@
       "titol": "monitor/a",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reche16oFwOzLkJvc"
     },
-    "249c5292b5f019b9c46e": {
-      "font": "Sobirà Dinàmic",
-      "titol": "Personal de neteja d’apartaments",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reckLyRW7zXqwY5Z7"
-    },
     "880d8c88ac0b5029d7f4": {
       "font": "Sobirà Dinàmic",
       "titol": "RESPONSABLE D'ESDEVENIMENTS I ACTIVITATS TURÍSTIQUES",
@@ -55,6 +50,11 @@
       "font": "Sobirà Dinàmic",
       "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
+    },
+    "ba641e61bd044b6d5683": {
+      "font": "Sobirà Dinàmic",
+      "titol": "Gerocultor/a Torn Matí",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recZHzH7ZImbG4SKi"
     },
     "7667072f6ca163a623a5": {
       "font": "SOC – Feina Activa",
