@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-22T08:55:28.471087+01:00",
+  "consulta": "2026-11-23T09:12:43.244366+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -33,6 +33,11 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     {
+      "id": "recZHzH7ZImbG4SKi",
+      "titol": "Gerocultor/a Torn Matí",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recZHzH7ZImbG4SKi"
+    },
+    {
       "id": "recdMz5ZG1cf7iExA",
       "titol": "Gerocultor/a torn matí",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recdMz5ZG1cf7iExA"
@@ -41,11 +46,6 @@
       "id": "reche16oFwOzLkJvc",
       "titol": "monitor/a",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reche16oFwOzLkJvc"
-    },
-    {
-      "id": "reckLyRW7zXqwY5Z7",
-      "titol": "Personal de neteja d’apartaments",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reckLyRW7zXqwY5Z7"
     },
     {
       "id": "recl3lYAcrMVbFkg6",
@@ -59,9 +59,9 @@
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "recTRC9N5ZgHVmQWl"
+    "recZHzH7ZImbG4SKi"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "reciHVtEIvNlIA2Th"
+    "reckLyRW7zXqwY5Z7"
   ]
 }
