@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-23T09:12:43.244366+01:00",
+  "consulta": "2026-11-24T09:07:15.742518+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -28,14 +28,14 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recPDgkSyErSqhe3o"
     },
     {
+      "id": "recRcL4wDvqTE3Ur9",
+      "titol": "TÈCNIC/A DE L'ATENEU COOPERATIU DE L'ALT PIRINEU I ARAN 2027",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recRcL4wDvqTE3Ur9"
+    },
+    {
       "id": "recTRC9N5ZgHVmQWl",
       "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
-    },
-    {
-      "id": "recZHzH7ZImbG4SKi",
-      "titol": "Gerocultor/a Torn Matí",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recZHzH7ZImbG4SKi"
     },
     {
       "id": "recdMz5ZG1cf7iExA",
@@ -59,9 +59,9 @@
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "recZHzH7ZImbG4SKi"
+    "recRcL4wDvqTE3Ur9"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "reckLyRW7zXqwY5Z7"
+    "recZHzH7ZImbG4SKi"
   ]
 }
