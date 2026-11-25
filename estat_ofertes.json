@@ -1,5 +1,5 @@
 {
-  "data": "2026-11-24",
+  "data": "2026-11-25",
   "anuncis": {
     "85d3cbe4cc1c88886687": {
       "font": "Sobirà Dinàmic",
@@ -16,6 +16,11 @@
       "titol": "Gerocultor/a torn matí",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recdMz5ZG1cf7iExA"
     },
+    "89334a4c1e833f59baa3": {
+      "font": "Sobirà Dinàmic",
+      "titol": "Recepcionista",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recDZwhuehXgI9cO7"
+    },
     "43b2a7dc9143d7163004": {
       "font": "Sobirà Dinàmic",
       "titol": "REPARTIDOR/A MAGATZEMISTA",
@@ -26,15 +31,20 @@
       "titol": "monitor/a",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reche16oFwOzLkJvc"
     },
-    "880d8c88ac0b5029d7f4": {
+    "3390e2583c2ed2696d54": {
       "font": "Sobirà Dinàmic",
-      "titol": "RESPONSABLE D'ESDEVENIMENTS I ACTIVITATS TURÍSTIQUES",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recKODiCrfK8XPD16"
+      "titol": "MONITORS/ES COLÒNIES ESCOLARS",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recIwWwzYOz09k6bU"
     },
     "8020c2162df8c64397e9": {
       "font": "Sobirà Dinàmic",
       "titol": "Monitor/a de menjador",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recl3lYAcrMVbFkg6"
+    },
+    "64e4b725237a77d17904": {
+      "font": "Sobirà Dinàmic",
+      "titol": "Personal de sala (cambrer/a)",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recNGU9oIBeHUaqDN"
     },
     "51187d542e15e2388c76": {
       "font": "Sobirà Dinàmic",
@@ -45,16 +55,6 @@
       "font": "Sobirà Dinàmic",
       "titol": "Gericultor/a",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recPDgkSyErSqhe3o"
-    },
-    "d30fa248b37840cbf748": {
-      "font": "Sobirà Dinàmic",
-      "titol": "TÈCNIC/A DE L'ATENEU COOPERATIU DE L'ALT PIRINEU I ARAN 2027",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recRcL4wDvqTE3Ur9"
-    },
-    "af84df5611c1b76f93ee": {
-      "font": "Sobirà Dinàmic",
-      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     "7667072f6ca163a623a5": {
       "font": "SOC – Feina Activa",
