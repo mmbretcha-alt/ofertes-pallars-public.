@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-24T09:07:15.742518+01:00",
+  "consulta": "2026-11-25T09:11:53.722639+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -13,29 +13,29 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/rec8patZfTlqW4zH0"
     },
     {
+      "id": "recDZwhuehXgI9cO7",
+      "titol": "Recepcionista",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recDZwhuehXgI9cO7"
+    },
+    {
       "id": "recFZcsXS7bX46yHw",
       "titol": "REPARTIDOR/A MAGATZEMISTA",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recFZcsXS7bX46yHw"
     },
     {
-      "id": "recKODiCrfK8XPD16",
-      "titol": "RESPONSABLE D'ESDEVENIMENTS I ACTIVITATS TURÍSTIQUES",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recKODiCrfK8XPD16"
+      "id": "recIwWwzYOz09k6bU",
+      "titol": "MONITORS/ES COLÒNIES ESCOLARS",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recIwWwzYOz09k6bU"
+    },
+    {
+      "id": "recNGU9oIBeHUaqDN",
+      "titol": "Personal de sala (cambrer/a)",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recNGU9oIBeHUaqDN"
     },
     {
       "id": "recPDgkSyErSqhe3o",
       "titol": "Gericultor/a",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recPDgkSyErSqhe3o"
-    },
-    {
-      "id": "recRcL4wDvqTE3Ur9",
-      "titol": "TÈCNIC/A DE L'ATENEU COOPERATIU DE L'ALT PIRINEU I ARAN 2027",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recRcL4wDvqTE3Ur9"
-    },
-    {
-      "id": "recTRC9N5ZgHVmQWl",
-      "titol": "Ofertes de feina de l'Oficina de Treball de Tremp (SOC) al Pallars Sobirà i Pallars Jussà",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recTRC9N5ZgHVmQWl"
     },
     {
       "id": "recdMz5ZG1cf7iExA",
@@ -59,9 +59,13 @@
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "recRcL4wDvqTE3Ur9"
+    "recDZwhuehXgI9cO7",
+    "recIwWwzYOz09k6bU",
+    "recNGU9oIBeHUaqDN"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "recZHzH7ZImbG4SKi"
+    "recKODiCrfK8XPD16",
+    "recRcL4wDvqTE3Ur9",
+    "recTRC9N5ZgHVmQWl"
   ]
 }
