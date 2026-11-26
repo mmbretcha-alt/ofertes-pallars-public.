@@ -1,5 +1,5 @@
 {
-  "consulta": "2026-11-25T09:11:53.722639+01:00",
+  "consulta": "2026-11-26T09:09:48.134120+01:00",
   "font": "Sobirà Dinàmic",
   "ofertes": [
     {
@@ -23,29 +23,14 @@
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recFZcsXS7bX46yHw"
     },
     {
-      "id": "recIwWwzYOz09k6bU",
-      "titol": "MONITORS/ES COLÒNIES ESCOLARS",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recIwWwzYOz09k6bU"
-    },
-    {
       "id": "recNGU9oIBeHUaqDN",
       "titol": "Personal de sala (cambrer/a)",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recNGU9oIBeHUaqDN"
     },
     {
-      "id": "recPDgkSyErSqhe3o",
-      "titol": "Gericultor/a",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recPDgkSyErSqhe3o"
-    },
-    {
       "id": "recdMz5ZG1cf7iExA",
       "titol": "Gerocultor/a torn matí",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recdMz5ZG1cf7iExA"
-    },
-    {
-      "id": "reche16oFwOzLkJvc",
-      "titol": "monitor/a",
-      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/reche16oFwOzLkJvc"
     },
     {
       "id": "recl3lYAcrMVbFkg6",
@@ -56,16 +41,31 @@
       "id": "recoZ87GDndArvpHl",
       "titol": "Gerocultor/a Torn Nit",
       "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recoZ87GDndArvpHl"
+    },
+    {
+      "id": "recrJI3cTLdEYuHCR",
+      "titol": "FCSA24226_ 1 plaça d’ OFICIAL 1 ESPAIS NATURALS PROTEGITS, grup laboral D1, a Forestal Catalana, SA",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recrJI3cTLdEYuHCR"
+    },
+    {
+      "id": "recuFRPA5PS6cPQ2Q",
+      "titol": "Ajudant cuina",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recuFRPA5PS6cPQ2Q"
+    },
+    {
+      "id": "recySJVL8ExfnayhA",
+      "titol": "Cambrer/a",
+      "url": "https://airtable.com/embed/apptN0FjMw1fO29PR/shrYiG7hgkudJrcz8/tblnRgFhEJKw2oEYx/viwxdniTPQ3CmQHAG/recySJVL8ExfnayhA"
     }
   ],
   "noves_respecte_a_la_web_anterior": [
-    "recDZwhuehXgI9cO7",
-    "recIwWwzYOz09k6bU",
-    "recNGU9oIBeHUaqDN"
+    "recrJI3cTLdEYuHCR",
+    "recuFRPA5PS6cPQ2Q",
+    "recySJVL8ExfnayhA"
   ],
   "no_detectades_respecte_a_la_web_anterior": [
-    "recKODiCrfK8XPD16",
-    "recRcL4wDvqTE3Ur9",
-    "recTRC9N5ZgHVmQWl"
+    "recIwWwzYOz09k6bU",
+    "recPDgkSyErSqhe3o",
+    "reche16oFwOzLkJvc"
   ]
 }
